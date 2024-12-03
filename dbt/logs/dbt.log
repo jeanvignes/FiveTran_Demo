@@ -1,0 +1,137 @@
+[0m13:51:53.637144 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017467386900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017469D1BD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017469DBCCD0>]}
+
+
+============================== 13:51:53.722609 | 841ebfef-8231-45c8-8487-96812a48c72a ==============================
+[0m13:51:53.722609 [info ] [MainThread]: Running with dbt=1.8.9
+[0m13:51:53.724547 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\jvignes\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:51:54.033173 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/jvignes/.dbt')}
+[0m13:51:54.034650 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m13:53:23.645523 [debug] [MainThread]: Starter project path: C:\Users\jvignes\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m13:53:24.128242 [info ] [MainThread]: 
+Your new dbt project "dbtFiveTran_Test" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:53:24.129476 [info ] [MainThread]: Setting up your profile.
+[0m13:53:24.132888 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m13:53:24.134834 [debug] [MainThread]: Command `dbt init` failed at 13:53:24.134672 after 91.31 seconds
+[0m13:53:24.135243 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017469F70640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017469FEEF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017469FD5150>]}
+[0m13:53:24.135671 [debug] [MainThread]: Flushing usage events
+[0m13:53:24.490534 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m14:01:30.154351 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002048744E7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020489E707D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020489E70690>]}
+
+
+============================== 14:01:30.174676 | af06244b-4265-49d4-a337-7bad428691d1 ==============================
+[0m14:01:30.174676 [info ] [MainThread]: Running with dbt=1.8.9
+[0m14:01:30.175639 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\jvignes\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:01:50.254516 [info ] [MainThread]: A project called dbtFiveTran_Test already exists here.
+[0m14:01:50.257169 [debug] [MainThread]: Command `dbt init` succeeded at 14:01:50.256854 after 20.51 seconds
+[0m14:01:50.257787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020489F4E060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002048A062210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020489E4A030>]}
+[0m14:01:50.258435 [debug] [MainThread]: Flushing usage events
+[0m14:01:50.756111 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m14:02:30.444760 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE132E7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE3D507D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE3D50690>]}
+
+
+============================== 14:02:30.456684 | 701dac8e-dbfd-4a6d-a8a9-bc5b59fbc0d4 ==============================
+[0m14:02:30.456684 [info ] [MainThread]: Running with dbt=1.8.9
+[0m14:02:30.457839 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\jvignes\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m14:02:43.583778 [debug] [MainThread]: Starter project path: C:\Users\jvignes\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m14:02:43.744397 [info ] [MainThread]: 
+Your new dbt project "dbtFiveTran_Test2" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:02:43.745222 [info ] [MainThread]: Setting up your profile.
+[0m14:08:48.504927 [info ] [MainThread]: Profile dbtFiveTran_Test2 written to C:\Users\jvignes\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:08:48.506958 [debug] [MainThread]: Command `dbt init` succeeded at 14:08:48.506782 after 378.40 seconds
+[0m14:08:48.507357 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE5D82D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE3F42330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDE5DC47C0>]}
+[0m14:08:48.507824 [debug] [MainThread]: Flushing usage events
+[0m14:08:49.235853 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m14:09:11.455285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017991DEE7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017994757890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000179948107D0>]}
+
+
+============================== 14:09:11.469102 | 0f5a4eb1-0cd8-496e-9fce-c03166a1ca70 ==============================
+[0m14:09:11.469102 [info ] [MainThread]: Running with dbt=1.8.9
+[0m14:09:11.470182 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\jvignes\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:09:11.602541 [info ] [MainThread]: dbt version: 1.8.9
+[0m14:09:11.604106 [info ] [MainThread]: python version: 3.13.0
+[0m14:09:11.608504 [info ] [MainThread]: python path: C:\Users\jvignes\AppData\Local\Programs\Python\Python313\python.exe
+[0m14:09:11.609808 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:09:14.450980 [info ] [MainThread]: Using profiles dir at C:\Users\jvignes\.dbt
+[0m14:09:14.452001 [info ] [MainThread]: Using profiles.yml file at C:\Users\jvignes\.dbt\profiles.yml
+[0m14:09:14.452837 [info ] [MainThread]: Using dbt_project.yml file at C:\dbt\dbt_project.yml
+[0m14:09:14.460179 [info ] [MainThread]: adapter type: snowflake
+[0m14:09:14.460945 [info ] [MainThread]: adapter version: 1.8.4
+[0m14:09:14.461979 [info ] [MainThread]: Configuration:
+[0m14:09:14.462600 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:09:14.464998 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:09:14.465640 [info ] [MainThread]: Required dependencies:
+[0m14:09:14.466460 [debug] [MainThread]: Executing "git --help"
+[0m14:09:14.490274 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m14:09:14.491408 [info ] [MainThread]: Connection:
+[0m14:09:14.492404 [info ] [MainThread]:   account: uq31108.us-east-2.aws
+[0m14:09:14.493856 [info ] [MainThread]:   user: D_MAT_USER
+[0m14:09:14.496851 [info ] [MainThread]:   database: DEV_MATTINGS_SOL_DB
+[0m14:09:14.497831 [info ] [MainThread]:   warehouse: DEV_MATTING_WH
+[0m14:09:14.498612 [info ] [MainThread]:   role: EDW_DEVELOPMENT_MATTING_FR
+[0m14:09:14.499120 [info ] [MainThread]:   schema: DEV_MATTINGS_SCHEMA
+[0m14:09:14.499981 [info ] [MainThread]:   authenticator: None
+[0m14:09:14.501455 [info ] [MainThread]:   oauth_client_id: None
+[0m14:09:14.502108 [info ] [MainThread]:   query_tag: None
+[0m14:09:14.503220 [info ] [MainThread]:   client_session_keep_alive: False
+[0m14:09:14.504260 [info ] [MainThread]:   host: None
+[0m14:09:14.505549 [info ] [MainThread]:   port: None
+[0m14:09:14.506589 [info ] [MainThread]:   proxy_host: None
+[0m14:09:14.507085 [info ] [MainThread]:   proxy_port: None
+[0m14:09:14.507788 [info ] [MainThread]:   protocol: None
+[0m14:09:14.508454 [info ] [MainThread]:   connect_retries: 1
+[0m14:09:14.510610 [info ] [MainThread]:   connect_timeout: None
+[0m14:09:14.512033 [info ] [MainThread]:   retry_on_database_errors: False
+[0m14:09:14.512807 [info ] [MainThread]:   retry_all: False
+[0m14:09:14.513407 [info ] [MainThread]:   insecure_mode: False
+[0m14:09:14.514270 [info ] [MainThread]:   reuse_connections: None
+[0m14:09:14.516332 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m14:09:15.721054 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m14:09:15.721892 [debug] [MainThread]: Using snowflake connection "debug"
+[0m14:09:15.722223 [debug] [MainThread]: On debug: select 1 as id
+[0m14:09:15.722486 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:09:20.177409 [debug] [MainThread]: SQL status: SUCCESS 1 in 4.455 seconds
+[0m14:09:20.178691 [debug] [MainThread]: On debug: Close
+[0m14:09:20.558862 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:09:20.559726 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:09:20.560301 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\dbt\dbt_project.yml> not found
+
+[0m14:09:20.560822 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m14:09:20.563016 [debug] [MainThread]: Command `dbt debug` failed at 14:09:20.562862 after 9.74 seconds
+[0m14:09:20.563475 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:09:20.563897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000179969A8770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017996C3B650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017996909D00>]}
+[0m14:09:20.564199 [debug] [MainThread]: Flushing usage events
+[0m14:09:20.782291 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
