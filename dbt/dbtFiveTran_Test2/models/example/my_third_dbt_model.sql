@@ -9,12 +9,14 @@
 
 -- {{ config(materialized='table') }}
 
-{{ config(materialized='table') }}
+{{ config(materialized='table'
+   alias = 'CALENDAR_SUBSET6'
+) }}
 
 with source_data as (
 
-SELECT * FROM DEV_MATTINGS_SCHEMA."Calendar4" 
-WHERE DEV_MATTINGS_SCHEMA."Calendar4"."Date" BETWEEN '2016-01-01' AND '2016-03-30'
+SELECT * FROM DEV_MATTINGS_SCHEMA.CALENDAR5
+WHERE DEV_MATTINGS_SCHEMA.CALENDAR5."Date" BETWEEN '2016-01-01' AND '2016-03-30'
 
 )
 
