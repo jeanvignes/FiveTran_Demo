@@ -3,5 +3,7 @@
 
 
 select *
-from {{ ref('my_third_dbt_model') }}
---where id = 1
+from {{ ref('my_third_dbt_model') }};
+
+select *
+from {{ ref('Change_CALENDAR_SUBSET6_dbt_model') }}
