@@ -9,8 +9,8 @@
 
 -- {{ config(materialized='table') }}
 
-{{ config(materialized='table'
-   alias = 'CALENDAR_SUBSET6'
+{{ config(materialized='table',
+Alias = 'CALENDAR_SUBSET6'
 ) }}
 
 with source_data as (
