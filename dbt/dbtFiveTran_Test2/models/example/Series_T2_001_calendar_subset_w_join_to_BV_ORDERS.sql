@@ -1,7 +1,7 @@
 
 -- models/my_second_model.sql
-SELECT *
-FROM {{ ref('Series_T1_001_calendar_subset_w_pretty_names') }}
+--SELECT *
+--FROM {{ ref('Series_T1_001_calendar_subset_w_pretty_names') }}
 
 
 {{ config(materialized='table',
@@ -19,7 +19,9 @@ BV_ORDERS.COST,
 BV_ORDERS.ORDER_DATE,
 BV_ORDERS.BRANCH_LOC_NUM
 
-FROM DEV_MATTINGS_SOL_DB.MAT_TRAK_.CALENDAR_T1 CAL_T1
+--FROM DEV_MATTINGS_SOL_DB.MAT_TRAK_.CALENDAR_T1 CAL_T1
+
+FROM {{ ref('Series_T1_001_calendar_subset_w_pretty_names') }} CAL_T1
 
 INNER JOIN RM.BASE_VW_RASDETFL_DRAFT BV_ORDERS
     ON TO_DATE(CAL_T1.CALENDAR_MONTH, 'YYYY-MM-DD') = 
