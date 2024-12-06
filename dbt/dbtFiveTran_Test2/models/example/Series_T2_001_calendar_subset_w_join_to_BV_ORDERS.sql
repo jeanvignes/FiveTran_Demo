@@ -1,4 +1,8 @@
 
+-- models/my_second_model.sql
+SELECT *
+FROM {{ ref('Series_T1_001_calendar_subset_w_pretty_names') }}
+
 
 {{ config(materialized='table',
 alias = 'CALENDAR_T2'
